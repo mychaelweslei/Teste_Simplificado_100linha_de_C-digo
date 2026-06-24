@@ -88,7 +88,7 @@ perguntas_lista = [# --- PROTOCOLO E PROCESSOS (Com números de protocolo simula
 
 def iniciar_automacao():
     # Coordenada atualizad conforme o seu print (campo "Write a message...")
-    X_CHAT, Y_CHAT = 1368, 810
+    X_CHAT, Y_CHAT = 575, 1001 #<<<<<<< Troque para as coordenadas corretas do campo de mensagem do chat
     print("--- Script de Automação ---")
     print(f"Total de perguntas: {len(perguntas_lista)}")
     print("Iniciando em 5 segundos... Abra a tela do chat.")
@@ -111,7 +111,7 @@ def iniciar_automacao():
 
         # 4. Tempo de espera entre o envio de uma mensagem e outra (ajuste se precisar)
         print("   Aguardando intervalo para a próxima mensagem (35s)...\n")
-        time.sleep(35)
+        time.sleep(35)# AQUI FICA PO TEMPO PODE MODIFICAR O TEMPO DE ESPERA ENTRE AS MENSAGENS
 
     print("✅ Sucesso! Todas as mensagens foram enviadas.")
 
